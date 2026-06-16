@@ -2,3 +2,16 @@ baseURL = 'https://example.org/'
 locale = 'zh-TW'
 title = '我的網站'
 theme = 'ananke'
+[menus]
+  [[menus.main]]
+    name = '首頁'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = '文章'
+    pageRef = '/post'
+    weight = 20
+  [[menus.main]]
+    name = '關於'
+    pageRef = '/about'
+    weight = 30
